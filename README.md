@@ -18,6 +18,3 @@ The bot allows anyone that can ban users in the guild they are executing the com
 #### Why am I getting a DisallowedIntents error?
 
 The Bot requires the "SERVER MEMBERS INTENT" enabled in the discord developer portal. To do this head to the developer portal and select your application then select bot and scroll down to enable and disabled intents at this time however the bot only needs the "SERVER MEMBERS INTENT" enabled
-
-
- likely look substandard to those who are professionals however it works and I suppose that's all that matters to most!
