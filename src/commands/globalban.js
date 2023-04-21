@@ -56,9 +56,9 @@ module.exports = {
       let notifybutton = new ActionRowBuilder()
       .addComponents(
         new ButtonBuilder()
-        .setLabel('Z-Dev Discord')
+        .setLabel('Z-Dev Github')
         .setEmoji('1083979315328335944')
-        .setURL('https://discord.gg/aECYfwUq9P')
+        .setURL('https://github.com/Zesty-ZDev')
         .setStyle('Link'),
       );
 
@@ -142,9 +142,9 @@ module.exports = {
           .addComponents(
             new ButtonBuilder()
             //.setCustomId('')
-            .setLabel('Z-Dev Discord')
+            .setLabel('Z-Dev Github')
             .setEmoji('1083979315328335944')
-            .setURL('https://discord.gg/aECYfwUq9P')
+            .setURL('https://github.com/Zesty-ZDev')
             .setStyle('Link'),
           );
 
