@@ -1,5 +1,5 @@
 
-# Global Guild Banning by Zdev
+# Global Guild Banning by Z-Dev
 The Global Guild Banning Bot will ensure that if you ban a user from one of your discord servers they are banned from all your discord servers the bot is added to then sending the target user a direct message alerting them of the ban and how many guilds they have been banned from 
 ### Z-Dev Discord
 Join [Here](https://discord.gg/EV9cpmp6qf) for support
