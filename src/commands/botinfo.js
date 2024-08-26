@@ -18,7 +18,7 @@ module.exports = {
 
     const help = new EmbedBuilder()
       .setAuthor({name: `${client.user.username} | Z-Dev `, iconURL: 'https://cdn.discordapp.com/attachments/712226602674552852/1084004801500688394/Z-Dev-Logo.gif'})
-      .setDescription(` ${client.user.username} Is an open source verification bot developed by Z-Dev \n\nClick the button below to view the repository`)
+      .setDescription(` ${client.user.username} Is an open source multiguild global banning system bot developed by Z-Dev \n\nClick the button below to view the Z-Dev Github featuring exclusive bot releases\n\n *Or click [here](https://github.com/Zesty-ZDev/Global-Guild-Banning-Bo) to view the repository*`)
       .setColor(0x65a4d8)
       .setImage('https://cdn.discordapp.com/attachments/712226602674552852/1083997852142936115/Z-Dev-Banner-opt.gif')
       .setFooter({
@@ -29,9 +29,9 @@ module.exports = {
       .addComponents(
         new ButtonBuilder()
         //.setCustomId('')
-        .setLabel('Z-Dev Discord')
+        .setLabel('Z-Dev Github')
         .setEmoji('1083979315328335944')
-        .setURL('https://github.com/Zesty-ZDev/Verify-Discord-Bot-FiveM')
+        .setURL('https://github.com/Zesty-ZDev')
         .setStyle('Link'),
       );
     //Do not remove credits!
