@@ -1,19 +1,32 @@
 
-# Global Guild Banning by Z-Dev
-The Global Guild Banning Bot will ensure that if you ban a user from one of your discord servers they are banned from all your discord servers the bot is added to, Once the ban is complete it will then send the target user a direct message alerting them of the ban and how many guilds they have been banned from 
+# Verify Bot by Zdev
+The Verify Bot will ensure users that join your FiveM Discord Community change their nick name to match the format "CharacterName [SteamName]" with a manual approval system with buttons sent to staff in a staff channel
+
 ### Z-Dev Discord
 Join [Here](https://discord.gg/EV9cpmp6qf) for support
 
 
 ## FAQ
 
-#### Why can anyone use the ban command?
+#### What is "staffchannel" in the config.js?
 
-The ban command has a default permission to ban members users normally this applies to all servers the bot is in because of this we strongly advise disabling "Public Bot" on the discord developer portal
+This determines the channel that staff use to accept or deny the verification request sent from the users wishing to verify!
 
-#### Why are random users being banned from my guilds?
+#### What is "roletoremove" &  "roletoadd" in the config.js?
 
-The bot allows anyone that can ban users in the guild they are executing the command in this applys to specificly their own guilds as they would most likely be able to ban members from their own guild a simple solution this issue would be to disable "Public Bot" on the discord developer portal if however the bot is not public is is most likely that an admin in one of your servers in abusing the command to check who is using the command check audit logs and the bot wil say which admin bans them after the ban reason
+This will set the role/s the bot will remove or/and give to the user once the staff press the "Verify user" button 
+
+#### What is "color" in the config.js?
+
+This sets the color of all the embeds the bot will send including the "Verify" button embed and the staff request embeds, this value has to be a color hex for example "#9aaae3"
+
+#### What is "autoverify" in the config.js ?
+
+This value is a true/false (bool) value and when set to true will allow users to verify themselves without any staff approval, when set to false the system requires all names to be verified with staff.
+
+#### Why am I getting permission errors?
+
+You are likely receiving these errors because the bot does not have the permission to give roles or the role it is trying to give it above the bot itself thus it cannot give this role
 
 #### Why am I getting a DisallowedIntents error?
 
